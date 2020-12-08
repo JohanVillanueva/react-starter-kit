@@ -5,5 +5,27 @@
 }
 
 body {
+  background: linear-gradient(to top right, black, #004e92);
   font-family: sans-serif;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  text-align: center;
+  color: white
+}
+
+img {
+  height: 40vh;
+  animation: rotateImage 5s linear infinite;
+}
+
+@keyframes rotateImage {
+  to {
+    transform: rotate(720deg);
+  }
 }
